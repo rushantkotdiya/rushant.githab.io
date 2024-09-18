@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background-color: rgba(202, 222, 224, 0.685);
+}
+del {
+  opacity: 0.5;
+}
+.account {
+  background-color: rgb(179, 238, 238);
+}
+#eshopper-header {
+  width: auto;
+  height: auto;
+}
+.footer {
+  display: flex;
+}
+.foo {
+  margin-left: 650px;
+}
+.ter {
+  margin-left: 10px;
+}
+#eshopper-navbar {
+  width: auto;
+  height: auto;
+}
+.navbar-links {
+  width: auto;
+  height: auto;
+  padding: 2px 20px;
+}
+.navbar-links li {
+  padding: 2px 20px;
+  display: inline-block;
+}
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 18px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block !important;
+}
+#eshopper-slider {
+  width: auto;
+  height: auto;
+}
+.carousel-item img {
+  width: 90% !important;
+  height: 400px !important;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+#eshopper-content {
+  width: auto;
+  height: auto;
+}
+.product img {
+  height: 200px !important;
+  margin-top: 5px;
+}
+
+.offers img {
+  width: 100% !important;
+  height: 450px;
+}
+#eshopper-footer {
+  width: auto;
+  height: auto;
+}
+@media only screen and (max-width: 558px) {
+  .navbar-links li {
+    padding: 2px 25px !important;
+    display: block !important;
+  }
+  .carousel-item img {
+    width: 90% !important;
+    height: 250px !important;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .foo {
+    margin-left: 90px;
+  }
+  .ter {
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 767px) {
+}
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 1240px) {
+}
+
+@media only screen and (max-width: 1355px) {
+}
